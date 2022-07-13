@@ -1,70 +1,95 @@
-# Getting Started with Create React App
+# REACT CRUD APP
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A simple and beautiful CRUD application built with React.
 
-## Available Scripts
+## LANGUAGES 
 
-In the project directory, you can run:
+ - [React](https://awesomeopensource.com/project/elangosundar/awesome-README-templates)
+ - [Nodejs](https://github.com/matiassingers/awesome-readme)
+ - [HTML/CSS](https://bulldogjob.com/news/449-how-to-write-a-good-readme-for-your-github-project)
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## API Reference
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+#### Get all items
 
-### `npm test`
+```http
+https://api.contentful.com
+```
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+| Parameter  | Description                |
+| :-------- |  :------------------------- |
+| `skip` |   The offset specified in the request
+|`limit`| The limit specified in the request (or the default for the collection, if none specified)
+|`total`|The total number (i.e. unpaginated) of resources in the collection specified by the query
+|`items`| The resources for the current request, as scoped by any pagination or filter parameters
 
-### `npm run build`
+#### Available Scripts
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+| Script        | Description                                                             |
+| ------------- | ----------------------------------------------------------------------- |
+| npm start     | Runs the app in the development mode.                                   |
+| npm test      | Launches the test runner in the interactive watch mode.                 |
+| npm run build | Builds the app for production to the `build` folder.                    |
+| npm run eject | This command will remove the single build dependency from your project. |
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Development
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+To get a local copy of the code, clone it using git:
 
-### `npm run eject`
+```
+git clone https://github.com/SafdarJamal/crud-app.git
+cd crud-app
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Install dependencies:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+```
+npm install
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Now, you can start a local web server by running:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+```
+npm start
+```
 
-## Learn More
+and then you can open http://localhost:3000 to view it in the browser.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## Screenshots
+## Login Page
+![CRUD React App - Personal - Microsoft​ Edge 13-07-2022 04_28_26 PM](https://user-images.githubusercontent.com/61742799/178724618-c87f0678-a894-4c27-8fcc-89a8a19220d2.png)
+![CRUD React App - Personal - Microsoft​ Edge 13-07-2022 04_28_32 PM](https://user-images.githubusercontent.com/61742799/178725052-1f2d76eb-b35b-4e15-846f-6a8cdae3e2f7.png)
 
-### Analyzing the Bundle Size
+## Dashboard Page Admin/users 
+![CRUD React App - Personal - Microsoft​ Edge 13-07-2022 04_28_45 PM](https://user-images.githubusercontent.com/61742799/178725273-56527174-da2b-44af-976b-bc3b4bdf4673.png)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-### Making a Progressive Web App
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## License!
 
-### Advanced Configuration
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+[MIT](https://choosealicense.com/licenses/mit/)
 
-### Deployment
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+## Roadmap
 
-### `npm run build` fails to minify
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- browser support Firefox, safari, Chrome, Edge.
+
+- Moblie UI
+
+
+## Authors
+
+- [@Vikram Sharma](https://www.github.com/vikramsharma513)
+
+
+## Badges
+[![MIT License](https://img.shields.io/apm/l/atomic-design-ui.svg?)](https://github.com/tterb/atomic-design-ui/blob/master/LICENSEs)
+[![GPLv3 License](https://img.shields.io/badge/License-GPL%20v3-yellow.svg)](https://opensource.org/licenses/)
+[![AGPL License](https://img.shields.io/badge/license-AGPL-blue.svg)](http://www.gnu.org/licenses/agpl-3.0)
+
